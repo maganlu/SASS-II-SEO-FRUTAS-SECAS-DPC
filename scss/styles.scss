@@ -37,24 +37,23 @@ ul{
     display: none;
 }
 
-/*--------------------MAPS------------------------------------*/
-$estilotexto: (
-    tfuente: bold,
+/*--------------------MAP------------------------------------*/
+$Estilotexto:(
     centrado: center,
-    subrayado: underline,
     colortitulo: black,
+    subrayado: underline,
 );
 
 /*--------------------InicioServicios-------------------------*/
 .serviciosGrid { 
    margin-bottom: 30px;
-   text-align: map-get($estilotexto, centrado);
-   font-weight: map-get ($estilotexto, tfuente);
+   text-align: map-get($Estilotexto, centrado);
+   font-weight: bold;
 
         div{
             p{
                font-size:x-large;
-               text-decoration: map-get($estilotexto, subrayado);
+               text-decoration: map-get($Estilotexto, subrayado);
              }
           }
 }
@@ -102,7 +101,7 @@ $estilotexto: (
           h2{
                color: rgb(7, 7, 7);
                font-weight: bold;
-               text-decoration: underline;
+               text-decoration: map-get($Estilotexto, subrayado);
                text-align: center;
     }
 
@@ -141,8 +140,8 @@ $estilotexto: (
             font-weight: bold;
             margin-top: 10px;
             font-size: large;
-            text-decoration: underline;
-           }
+            text-decoration: map-get($Estilotexto, subrayado);
+        }
 }
 
 
@@ -209,8 +208,8 @@ h3{
 
            p{
             text-decoration:solid;
-            text-decoration: underline;
-           }
+            text-decoration: map-get($Estilotexto, subrayado);
+        }
 }
 
 
