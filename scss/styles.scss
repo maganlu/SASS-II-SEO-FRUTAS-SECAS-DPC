@@ -37,17 +37,24 @@ ul{
     display: none;
 }
 
+/*--------------------MAPS------------------------------------*/
+$estilotexto: (
+    tfuente: bold,
+    centrado: center,
+    subrayado: underline,
+    colortitulo: black,
+);
 
 /*--------------------InicioServicios-------------------------*/
-.serviciosGrid{ 
-    margin-bottom: 30px;
-   text-align: center; 
-   font-weight: bold;
+.serviciosGrid { 
+   margin-bottom: 30px;
+   text-align: map-get($estilotexto, centrado);
+   font-weight: map-get ($estilotexto, tfuente);
 
         div{
             p{
                font-size:x-large;
-               text-decoration: underline;
+               text-decoration: map-get($estilotexto, subrayado);
              }
           }
 }
