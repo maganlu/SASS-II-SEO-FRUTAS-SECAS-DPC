@@ -67,7 +67,8 @@ ul li a {
     text-decoration: underline; }
 
 .productos-lista li {
-  padding: 0px 10px 10px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: medium;
   font-weight: bold;
   list-style: none;
@@ -197,7 +198,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "serviciologistica servicioenvios" "servicioasesor servicioespecialistas"; }
+    grid-template-areas: "serviciologistica servicioenvios"
+ "servicioasesor servicioespecialistas"; }
   .redesGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
