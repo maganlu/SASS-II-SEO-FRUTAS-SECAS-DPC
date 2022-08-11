@@ -80,12 +80,11 @@ ul li a:hover {
   color: rgb(7, 7, 7);
   font-weight: bold;
   text-decoration: underline;
-  align-content: center;
+  text-align: center;
 }
 
 .productos-lista li, .productosGrid4 p li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 10px;
   font-size: medium;
   font-weight: bold;
   list-style: none;

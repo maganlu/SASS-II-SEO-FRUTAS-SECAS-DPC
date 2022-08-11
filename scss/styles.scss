@@ -96,7 +96,7 @@ ul{
                color: rgb(7, 7, 7);
                font-weight: bold;
                text-decoration: underline;
-               align-content: center;
+               text-align: center;
     }
 
 }
@@ -105,8 +105,7 @@ ul{
 .productos-lista{
 
     li{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
     font-size: medium;
     font-weight: bold;
     list-style: none;
@@ -155,11 +154,16 @@ h3{
     font-size: xx-large;
 }
 
-
-.formularioContacto {
+@mixin display-flex-center {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+
+
+.formularioContacto {
+    @include display-flex-center;
     letter-spacing: 1px;
     background:#C1FA84;   
     background-size: cover;
