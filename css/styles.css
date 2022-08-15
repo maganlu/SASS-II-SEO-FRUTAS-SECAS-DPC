@@ -59,7 +59,9 @@ ul li a {
 .productosGridpage {
   display: grid;
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  background-image: url(../imagen/walnut-min.jpg);
+  background-size: auto; }
   .productosGridpage h2 {
     color: #070707;
     font-weight: bold;
