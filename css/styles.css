@@ -73,9 +73,8 @@ ul li a:hover {
 /*----------------------PAGE PRODUCTOS-------------------------*/
 .productosGridpage {
   display: grid;
-  justify-content: center;
-  background-size: cover;
   text-align: center;
+  justify-content: center;
 }
 .productosGridpage h2 {
   color: rgb(7, 7, 7);
@@ -84,8 +83,8 @@ ul li a:hover {
   text-align: center;
 }
 
-.productos-lista li, .productosGrid4 p li {
-  padding-top: 10px;
+.productos-lista li {
+  margin-top: 10px;
   font-size: medium;
   font-weight: bold;
   list-style: none;
@@ -93,6 +92,9 @@ ul li a:hover {
 }
 
 .productosGrid4 p {
+  color: rgb(7, 7, 7);
+  font-weight: bold;
+  text-decoration: underline;
   font-size: xx-large;
   margin-top: 20px;
 }
@@ -250,7 +252,7 @@ h3 {
 /*---------------------MEDIA DESKTOP PRODUCTOS----------------------*/
 @media (min-width: 768px) {
   .productosGridpage {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
