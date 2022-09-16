@@ -101,41 +101,11 @@ ul li a {
   text-align: center; }
 
 /*----------------------PAGE CONTACTO-------------------------*/
-h3 {
-  color: black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: xx-large; }
-
-.formularioContacto {
-  display: flex;
-  justify-content: center;
+.formulario_article article {
+  font-size: large;
   text-align: center;
-  letter-spacing: 1px;
-  background: #C1FA84;
-  background-size: cover; }
-  .formularioContacto input {
-    width: 80%;
-    height: 35px;
-    text-align: center; }
-
-.formularioContacto form {
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.formulario__botonsubmit {
-  background-color: #C1FA84;
-  font-weight: bold; }
-
-.formularioContacto div {
   font-weight: bold;
-  font-size: x-large; }
-
-.formulario-eleccion {
-  margin-bottom: 15px; }
-  .formulario-eleccion p {
-    text-decoration: solid;
-    text-decoration: underline; }
+  margin-bottom: 30px; }
 
 /*--------------------FOOTER DE TODAS LAS PAGES-------------------------*/
 .redesinstagram {
